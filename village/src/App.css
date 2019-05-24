@@ -13,13 +13,13 @@
 }
 
 .navbar > li > a {
-  color: #3cbded;
+  color: #da8c26;
   padding: 24px;
   height: 16px;
 }
 
 .navbar > li > a.activeNavButton {
-  background-color: #3cbded;
+  background-color: #98a21d;
   color: white;
 }
 
@@ -34,7 +34,27 @@ ul {
   padding-left: 0px;
 }
 
+
 .Smurf {
-  border: 2px solid #3cbded;
+  border: 2px solid #840606;
   margin: 30px 20%;
+}
+
+.SmurfForm {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #840606;
+  margin-left: 25%;
+  margin-top: 20px;
+  width: 50%;
+  background-color: lightblue;
+}
+.AddName {
+  margin: 10px;
+}
+.AddAge {
+  margin: 10px;
+}
+.AddHeight {
+  margin: 10px;
 }
