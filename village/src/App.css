@@ -1,3 +1,60 @@
 .App {
   text-align: center;
 }
+.navbar {
+  margin: 0;
+  padding: 0px;
+  height: 64px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar > li > a {
+  color: #da8c26;
+  padding: 24px;
+  height: 16px;
+}
+
+.navbar > li > a.activeNavButton {
+  background-color: #98a21d;
+  color: white;
+}
+
+.nav-button {
+  text-decoration: none;
+}
+.activeNavButton {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+
+.Smurf {
+  border: 2px solid #840606;
+  margin: 30px 20%;
+}
+
+.SmurfForm {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #840606;
+  margin-left: 25%;
+  margin-top: 20px;
+  width: 50%;
+  background-color: lightblue;
+}
+.AddName {
+  margin: 10px;
+}
+.AddAge {
+  margin: 10px;
+}
+.AddHeight {
+  margin: 10px;
+}
